@@ -46,13 +46,13 @@ p {
 
 .welcome-logo {
     width: 100%;
-    margin-top: 100px;
     -webkit-filter: drop-shadow(10px 10px 10px #222222);
     filter: drop-shadow(10px 10px 10px #222222);
 }
 
 .welcome-logo-container {
     text-align: center;
+    margin-top: 75px;
 }
 
 .light-text {
@@ -99,7 +99,6 @@ p {
     width: 100%;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
-    position: relative;
 }
 
 .hero-image {
@@ -108,6 +107,7 @@ p {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    width: 100%;
     padding-top: 75px;
 }
 
@@ -141,6 +141,9 @@ p {
     width: 100%;
 }
 
+.core-value-container {
+}
+
 .footer {
     background-color: black;
     width: 100%;
@@ -164,11 +167,11 @@ p {
 }
 
 
-.jumbotron {
+/* .jumbotron {
     width: 100%;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
-}
+} */
 
 .top-bottom-margin {
     margin: 75px 0 75px 0;
@@ -185,7 +188,31 @@ p {
     margin-bottom: 0px;
 }
 
-@media only screen and (max-width: 991px) {
+
+
+  @media only screen and (max-width: 1300px) {
+
+    .welcome-logo {
+        width: 75%;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+  }
+
+  @media only screen and (min-width: 2000px) {
+    .hero-image {
+        height: 1300px; /* You must set a specified height */
+        margin-bottom: 100px;
+    }
+
+    .welcome-logo {
+        width: 75%;
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
     .navbar {
         display: none;
     }
@@ -200,18 +227,5 @@ p {
         margin-bottom: 100px;
         -webkit-filter: drop-shadow(5px 5px 5px #222222);
         filter: drop-shadow(5px 5px 5px #222222);
-    }
-  }
-
-  @media only screen and (min-width: 2000px) {
-    .hero-image {
-        height: 1300px; /* You must set a specified height */
-        margin-bottom: 100px;
-    }
-
-    .welcome-logo {
-        width: 75%;
-        margin-top: 200px;
-        margin-bottom: 100px;
     }
   }
