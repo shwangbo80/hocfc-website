@@ -1,0 +1,217 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.container-fluid {
+    width: 100%;
+    padding: 0 0 0 0;
+    }
+
+
+p {
+    font-size: 18px;
+}
+
+.row {
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.fas {
+    color: rgb(00, 113, 188);
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.icon-container {
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+
+.cores-container {
+    margin: 50px 0 10px 0;
+}
+
+.navbar {
+    background-color: rgb(00, 113, 188);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav-logo {
+    width: 30px;
+    height: auto;
+}
+
+.welcome-logo {
+    width: 100%;
+    margin-top: 100px;
+    -webkit-filter: drop-shadow(10px 10px 10px #222222);
+    filter: drop-shadow(10px 10px 10px #222222);
+}
+
+.welcome-logo-container {
+    text-align: center;
+}
+
+.light-text {
+    color: white;
+}
+
+.fa-hand-holding-heart {
+    color: rgb(00, 113, 188);
+}
+
+.fa-bible {
+    color: orangered;
+}
+
+.fa-cross {
+    color: green;
+}
+
+.fa-sign-out-alt {
+    color: maroon;
+
+}
+
+.fa-facebook-square, .fa-instagram, .fa-youtube {
+    font-size: 25px;
+    color: white;
+    margin: 0 15px 0 15px;
+}
+
+.img-container-text {
+    margin-top: 150px;
+}
+
+.location-container {
+    width: 100%;
+}
+
+.church-map {
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.hero-container {
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    position: relative;
+}
+
+.hero-image {
+    background-image: url(../img/bg-oc.jpeg);
+    height: 750px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding-top: 75px;
+}
+
+.mission-bg {
+    background-image: url(../img/mission.jpg);
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin: 100px 0 100px 0;
+    width: 100%;
+}
+
+.worsip-bg {
+    background-image: url(../img/worship.jpg);
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin: 100px 0 100px 0;
+    width: 100%;
+}
+
+.contact-bg {
+    background-image: url(../img/contact.jpeg);
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin: 100px 0 10px 0;
+    width: 100%;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    margin: -5px 0 0 0;;
+}
+
+.social-container {
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 0 0 0;
+}
+
+.copyright-text {
+    margin-top: 20PX;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin-top: 20PX;
+    padding-bottom: 20px;
+}
+
+
+.jumbotron {
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.top-bottom-margin {
+    margin: 75px 0 75px 0;
+}
+
+.worship-time {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.contact-text {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar {
+        display: none;
+    }
+
+    .hero-image {
+        height: 500px; /* You must set a specified height */
+    }
+
+    .welcome-logo {
+        width: 80%;
+        margin-top: 25px;
+        margin-bottom: 100px;
+        -webkit-filter: drop-shadow(5px 5px 5px #222222);
+        filter: drop-shadow(5px 5px 5px #222222);
+    }
+  }
+
+  @media only screen and (min-width: 2000px) {
+    .hero-image {
+        height: 1300px; /* You must set a specified height */
+        margin-bottom: 100px;
+    }
+
+    .welcome-logo {
+        width: 75%;
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+  }
