@@ -32,6 +32,10 @@ p {
     margin: 50px 0 10px 0;
 }
 
+.core-value-container {
+    text-align: center;
+}
+
 .navbar {
     background-color: rgb(00, 113, 188);
     width: 100%;
@@ -82,8 +86,14 @@ p {
     margin: 0 15px 0 15px;
 }
 
+.about-container {
+    margin: 200px 0 200px 0;
+}
+
 .img-container-text {
-    margin-top: 150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .location-container {
@@ -108,7 +118,6 @@ p {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     width: 100%;
-    padding-top: 75px;
 }
 
 .mission-bg {
@@ -117,7 +126,7 @@ p {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    margin: 100px 0 100px 0;
+    margin: 0px 0 100px 0;
     width: 100%;
 }
 
@@ -137,17 +146,14 @@ p {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    margin: 100px 0 10px 0;
+    margin: 100px 0 0px 0;
     width: 100%;
-}
-
-.core-value-container {
 }
 
 .footer {
     background-color: black;
     width: 100%;
-    margin: -5px 0 0 0;;
+    margin: 10px 0 0 0;;
 }
 
 .social-container {
@@ -165,13 +171,6 @@ p {
     margin-top: 20PX;
     padding-bottom: 20px;
 }
-
-
-/* .jumbotron {
-    width: 100%;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-} */
 
 .top-bottom-margin {
     margin: 75px 0 75px 0;
