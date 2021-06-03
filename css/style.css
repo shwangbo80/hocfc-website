@@ -153,7 +153,6 @@ p {
 .footer {
     background-color: black;
     width: 100%;
-    margin: 10px 0 0 0;;
 }
 
 .social-container {
@@ -184,7 +183,6 @@ p {
 .contact-text {
     font-size: 2rem;
     font-weight: lighter;
-    margin-bottom: 0px;
 }
 
 
@@ -199,9 +197,9 @@ p {
   }
 
   @media only screen and (min-width: 2000px) {
+
     .hero-image {
-        height: 1300px; /* You must set a specified height */
-        margin-bottom: 100px;
+        height: 1200px; /* You must set a specified height */
     }
 
     .welcome-logo {
@@ -217,7 +215,7 @@ p {
     }
 
     .hero-image {
-        height: 500px; /* You must set a specified height */
+        height: 750px; /* You must set a specified height */
     }
 
     .welcome-logo {
@@ -226,5 +224,9 @@ p {
         margin-bottom: 100px;
         -webkit-filter: drop-shadow(5px 5px 5px #222222);
         filter: drop-shadow(5px 5px 5px #222222);
+    }
+
+    .about-container {
+        margin: 100px 0 100px 0;
     }
   }
