@@ -32,7 +32,7 @@ p {
     margin: 50px 0 10px 0;
 }
 
-.core-value-container {
+#core-value-container {
     text-align: center;
 }
 
@@ -54,9 +54,21 @@ p {
     filter: drop-shadow(10px 10px 10px #222222);
 }
 
+.hero-container {
+    height: 1000px;
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
 .welcome-logo-container {
     text-align: center;
-    margin-top: 75px;
+}
+
+.contact-btn {
+    width: 200px;
+    height: 75px;
+    font-size: 25px;
 }
 
 .light-text {
@@ -105,19 +117,26 @@ p {
     margin: 0 0 0 0;
 }
 
-.hero-container {
-    width: 100%;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
+.email-link {
+    color: white;;
 }
+
+.email-link:hover {
+    color: lightblue;
+    text-decoration: none;
+  }
 
 .hero-image {
     background-image: url(../img/bg-oc.jpeg);
-    height: 750px; /* You must set a specified height */
+    height: 900px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     width: 100%;
+}
+
+#mission-container, #worship-container, #contact-container {
+    padding: 0 0 0 0;
 }
 
 .mission-bg {
@@ -153,6 +172,7 @@ p {
 .footer {
     background-color: black;
     width: 100%;
+    margin-top: 2px;
 }
 
 .social-container {
@@ -181,45 +201,20 @@ p {
 }
 
 .contact-text {
-    font-size: 2rem;
+    color: white;
+    font-size: 1.5rem;
     font-weight: lighter;
 }
 
 
-
-  @media only screen and (max-width: 1300px) {
-
-    .welcome-logo {
-        width: 75%;
-        margin-top: 150px;
-        margin-bottom: 100px;
-    }
-  }
-
-  @media only screen and (min-width: 2000px) {
-
-    .hero-image {
-        height: 1200px; /* You must set a specified height */
-    }
-
-    .welcome-logo {
-        width: 75%;
-        margin-top: 200px;
-        margin-bottom: 100px;
-    }
-  }
 
   @media only screen and (max-width: 991px) {
     .navbar {
         display: none;
     }
 
-    .hero-image {
-        height: 750px; /* You must set a specified height */
-    }
-
     .welcome-logo {
-        width: 80%;
+        width: 90%;
         margin-top: 25px;
         margin-bottom: 100px;
         -webkit-filter: drop-shadow(5px 5px 5px #222222);
@@ -230,3 +225,16 @@ p {
         margin: 100px 0 100px 0;
     }
   }
+
+
+  @media only screen and (min-width: 992px) {
+
+    .welcome-logo {
+        width: 80%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+  }
+
+
+
