@@ -1,12 +1,11 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
 .container-fluid {
     width: 100%;
     padding: 0 0 0 0;
-    }
-
+}
 
 p {
     font-size: 18px;
@@ -19,8 +18,8 @@ p {
 
 .fas {
     color: rgb(00, 113, 188);
-    display:inline-block;
-    vertical-align:middle;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .icon-container {
@@ -89,10 +88,11 @@ p {
 
 .fa-sign-out-alt {
     color: maroon;
-
 }
 
-.fa-facebook-square, .fa-instagram, .fa-youtube {
+.fa-facebook-square,
+.fa-instagram,
+.fa-youtube {
     font-size: 25px;
     color: white;
     margin: 0 15px 0 15px;
@@ -103,7 +103,7 @@ p {
 }
 
 .img-container-text {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -118,13 +118,13 @@ p {
 }
 
 .email-link {
-    color: white;;
+    color: white;
 }
 
 .email-link:hover {
     color: lightblue;
     text-decoration: none;
-  }
+}
 
 .hero-image {
     background-image: url(../img/bg-oc.jpeg);
@@ -135,7 +135,9 @@ p {
     width: 100%;
 }
 
-#mission-container, #worship-container, #contact-container {
+#mission-container,
+#worship-container,
+#contact-container {
     padding: 0 0 0 0;
 }
 
@@ -182,12 +184,12 @@ p {
 }
 
 .copyright-text {
-    margin-top: 20PX;
+    margin-top: 20px;
 }
 
 .footer-text {
     font-size: 14px;
-    margin-top: 20PX;
+    margin-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -206,9 +208,12 @@ p {
     font-weight: lighter;
 }
 
+.fa-instagram,
+.fa-youtube {
+    font-size: 30px;
+}
 
-
-  @media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
     .navbar {
         display: none;
     }
@@ -224,17 +229,12 @@ p {
     .about-container {
         margin: 100px 0 100px 0;
     }
-  }
+}
 
-
-  @media only screen and (min-width: 992px) {
-
+@media only screen and (min-width: 992px) {
     .welcome-logo {
         width: 80%;
         margin-top: 100px;
         margin-bottom: 100px;
     }
-  }
-
-
-
+}
